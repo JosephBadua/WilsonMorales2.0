@@ -1,6 +1,11 @@
+.carousel{
+    height: 100vh;
+    width: 100%;
+}
+
 /*ABOUT ME-----------------------------------------------------------*/
 .wilson {
-    height: 70vh;
+    height: 60vh !important;
 }
 .nameTitle {
     font-size: 2rem !important;
