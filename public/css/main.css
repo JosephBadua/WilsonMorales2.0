@@ -1,18 +1,32 @@
 .carousel{
     height: 100vh;
     width: 100%;
+    border-bottom: 2px solid teal;
 }
 
 /*ABOUT ME-----------------------------------------------------------*/
 .wilson {
-    height: 60vh !important;
+    height: 90vh !important;
+    border: thick solid teal;
+}
+.halfLine {
+    width: 70%;
+    margin-right:0px;
+}
+.section-title {
+    font-size: 80px; 
+    font-weight: bold;
+    text-shadow: 5px 5px teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
 }
 .nameTitle {
     font-size: 2rem !important;
 }
 .caption {
-    font-size: 2.2rem !important;
+    font-size: 2.7rem !important;
     line-height: 2.5rem !important;
+    text-align: right;
 }
 /*Services-------------------------------------------------------------*/
 .serviceTitle {
