@@ -15,34 +15,43 @@
     line-height: 2.5rem !important;
 }
 /*Services-------------------------------------------------------------*/
+.serviceTitle {
+    font-size: 100px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 7px 7px 7px  black;
+}
 .cardText{
     width: 100%;
     height: 50%;
     text-align: center;
     font-size: 4rem !important;
-    color: orange !important;
-    font-weight: 400 !important;
+    color: white !important;
+    font-weight: bold !important;
+    text-shadow: 7px 7px 7px   teal !important;
 }
 .cardText1{
     width: 100%;
     height: 65%;
     text-align: center;
     font-size: 4rem !important;
-    color: darkorange !important;
-    font-weight: 400 !important;
+    color: white !important;
+    font-weight: bold !important;
+    text-shadow: 7px 7px 7px  teal !important;
 }
 .cardText2{
     width: 100%;
     height: 75%;
     text-align: center;
     font-size: 4rem !important;
-    color: blue !important;
-    font-weight: 400 !important;
+    color: white !important;
+    font-weight: bold !important;
+    text-shadow: 7px 7px 7px   teal !important;
 }
 .serviceImage {
     max-height: 350px !important;
     width: 100% !important;
+    filter: grayscale(30%)
 }
-.serviceImage:hover {
-    opacity: 0.5 !important;
+.card-image:hover {
+    opacity: 0.6 !important;
 }
