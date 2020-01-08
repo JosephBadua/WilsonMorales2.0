@@ -195,13 +195,13 @@
           <h2 class="insuranceText">Dummy Text</h2>
         </div>
         <div class="block center fade-in-out">
-           <h2 class="insuranceText">Dummy Text</h2>
+          <h2 class="insuranceText">Dummy Text</h2>
         </div>
         <div class="block center fade-in-out">
-           <h2 class="insuranceText">Dummy Text</h2>
+          <h2 class="insuranceText">Dummy Text</h2>
         </div>
         <div class="block center fade-in-out">
-         <h2 class="insuranceText">Dummy Text</h2>
+          <h2 class="insuranceText">Dummy Text</h2>
         </div>
         <div class="block center fade-in-out">
           <h2 class="insuranceText">Dummy Text</h2>
@@ -306,28 +306,35 @@
 
 <!-- Contact Us -->
 <div class="section black valign-wrapper">
-  <div class="container">
-    <form>
-      <div class="row">
-        <div class="col s12">
-          <h2 class="section-title">Contact Us</h2>
-        </div>
-        <div class="input-field col s6">
-          <input id="first_name" type="text">
-          <label for="first_name">First Name</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text">
-          <label for="last_name">Last Name</label>
-        </div>
-        <div class="input-field col s12">
-          <textarea id="message" class="materialize-textarea"></textarea>
-          <label for="message">Message</label>
-          <a class="waves-effect waves-light btn-large">Button</a>
+    <div class="row">
+      <div class="col s8">
+        <div class="mapWrapper centerAlign">
+            <iframe class="map centerAlign" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJzXJNuyoz3YAR8BRlYvNkhvU&key=AIzaSyDLyAKpn0Y7qrFRZvbpB6E9QcdT9dcC-u8" allowfullscreen></iframe>
         </div>
       </div>
-    </form>
-  </div>
+      <div class="col s3 pull-s1">
+        <form>
+          <div class="row">
+            <div class="col s12">
+              <h2 class="contact-title">Contact Us</h2>
+            </div>
+            <div class="input-field col s6">
+              <input id="first_name" type="text">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text">
+              <label for="last_name">Last Name</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Message</label>
+              <a class="waves-effect waves-light btn-large">Button</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
 </div>
 
 <footer class="page-footer">
@@ -369,6 +376,10 @@
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
 <script src="/js/materialize.min.js"></script>
+<!-- Google Maps API -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLyAKpn0Y7qrFRZvbpB6E9QcdT9dcC-u8&callback=initMap">
+</script>
 
 <!-- External libraries -->
 <script src="/js/imagesloaded.pkgd.min.js"></script>
