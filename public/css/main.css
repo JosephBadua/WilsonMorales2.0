@@ -1,3 +1,48 @@
+.wrapper-first-image {
+    margin: 0.05em;
+    background-image: url('/images/medical-background.jpg');
+}
+
+.wrapper-services {
+    margin: 0.05em;
+    background: white;
+}
+
+.testimonial-wrap {
+    margin: 0.1em;
+    background: rgb(223, 210, 210);
+
+}
+
+.insurance-picture {
+    height: 100%;
+    width: 100%;
+}
+
+.faq-image {
+    margin: 0.05em;
+    background-image: url("/images/faq-image.jpg");
+    background-size: cover !important;
+}
+
+.map-clinic {
+    border: 5px solid navy !important;
+}
+
+.test-star {
+    transform: scale(0.7) !important;
+}
+
+.service-image {
+    height: 25vh;
+    width: 100%;
+}
+
+.wrapper-first-image-none {
+    margin: 0.05em;
+    background: rgb(21, 174, 216);
+}
+
 .nav-title {
     padding: 0.3em !important;
     color: white !important;
