@@ -3,6 +3,10 @@
     background-image: url('/images/medical-background.jpg');
 }
 
+.size-stick {
+    height: 100vh !important;
+}
+
 .wrapper-services {
     margin: 0.05em;
     background: white;
