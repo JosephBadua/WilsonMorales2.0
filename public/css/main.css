@@ -18,6 +18,11 @@
 
 }
 
+.top-shadow {
+    border: 1px solid #202020;
+    box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+}
+
 .insurance-picture {
     height: 100%;
     width: 100%;
