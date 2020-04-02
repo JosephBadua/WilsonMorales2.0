@@ -12,10 +12,40 @@
     background: white;
 }
 
+.full-size {
+    height: 100%;
+    width: 100%;
+    object-position: center ;
+}
+
 .testimonial-wrap {
     margin: 0.1em;
     background: rgb(223, 210, 210);
+}
 
+.hospital-text {
+    text-align: center;
+    padding: 0.5em;
+    color: white !important;
+    font-size: 60px !important;
+}
+
+.hospital-text1 {
+    text-align: center;
+    padding: 0.5em;
+    font-size: 40px !important;
+}
+
+.hospital-text2 {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 40px !important;
+}
+
+.bot-shadow {
+    border-bottom: 1px solid #202020;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 .top-shadow {
@@ -36,6 +66,13 @@
 
 .map-clinic {
     border: 5px solid navy !important;
+    display: block;
+    margin: auto;
+}
+
+.second-map {
+    height: 45vh;
+    width: 100%;
 }
 
 .test-star {
